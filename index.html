@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سنجد راننده</title>
+    <!-- bootstrap slideshow -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  
+  <!-- icons links -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="assest/car-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <section class="header" dir="ltr">
+        <header>
+            <img class="logo" src="assest/car-logo.png" alt="not found">
+            <ul class="nav-links" dir="rtl">
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    خانه
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    خدمات
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="ri-customer-service-2-fill"></i>
+                    پشتیبان
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-regular fa-comments"></i>
+                    ارتباط با ما
+                  </a>
+                </li>
+            </ul>
+            <!-- class="bx bx-menu" error 403 -->
+            <div  id="menuBtn" onclick="menu()"><i class="ri-menu-line"></i></div>
+        </header>
+        <nav>
+            <ul>
+                <li>مقالات</li>
+                <li>ارسال پیام</li>
+                <li>تماس برخط</li>
+                <li>توسعه دهندگان</li>
+            </ul>
+        </nav>
+        <div class="content-header">
+          <h1>سرویس رو:پلتفرم هوشمند سرویس مدارس</h1>
+          <br>
+          <p>با ارائه سرویس های خود به شما امنیت فرزندانتان را تضمین میکنیم</p>
+        </div>
+        <!-- <div class="searchbar">
+          <input type="search" placeholder="جستجو...">
+        </div> -->
+    </section>
+    <section class="slideshow">
+          
+          <div id="demo" class="carousel slide" data-ride="carousel">
+          
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assest/Sunset.jpg" alt="Los Angeles" width="800" height="700">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/slider.jpg" alt="Chicago" width="700" height="300">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/Road asphalt by Luca Micheli [2160x3840].jpg" alt="New York" width="700" height="300">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/Road asphalt by Luca Micheli [2160x3840].jpg" alt="New York" width="700" height="300">
+              </div>
+              <div class="carousel-item">
+                <img src="assest/Road asphalt by Luca Micheli [2160x3840].jpg" alt="New York" width="700" height="300">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    </section>
+    <!-- <section class="wrapper">
+        <div class="container-fostrap">
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4" id="card1">
+                            <div class="card">
+                                <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
+                                <img src="assest/vector-removebg-preview.png" style="width: 265px; height: 200px;"/>
+                              </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> سفر خاطره ساز سرویس رو
+                                      </a>
+                                    </h4>
+                                    <p class="">
+                                        سرویس رو بروز ترین پلتفرم برای سرویس مدارس
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html" class="btn btn-link btn-block">
+                                        ادامه مطالب
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" id="card2">
+                            <div class="card">
+                                <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                                <img src="assest/vector-removebg-preview.png" style="width: 265px; height: 200px;"/>
+                              </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> چرا سرویس رو
+                                      </a>
+                                    </h4>
+                                    <p class="">
+                                        سرویس رو بهترین سایت حمل و نقل شهری باانواع 
+                                        <a href="#">
+                                          خدمات
+                                        </a> آماده خدمت رسانی است...
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
+                                        ادامه مطالب
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" id="card3">
+                            <div class="card">
+                                <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                                <img src="assest/vector-removebg-preview.png" style="width: 265px; height: 200px;"/>
+                              </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">مزیت و ارزش سرویس رو
+                                      </a>
+                                    </h4>
+                                    <p class="">
+                                        با قیمت مناسب انواع 
+                                        <a href="#">
+                                          خدمات
+                                        </a> را سریع دریافت کن!...
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html" class="btn btn-link btn-block">
+                                        ادامه مطالب
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <div>
+      <h2 class="header-content">چرا سنجد</h2>
+    <!-- <div class="content-cd">
+        <div class="right-side">
+            <img class="image" src="assest/vector-removebg-preview.png" alt="">
+        </div>
+        <div class="left-side">
+            <h3 class="header-body">ساعات منعطف</h3>
+            <p class="text-body">یکی از اصلی‌ترین دغدغه‌ها در هنگام خرید آنلاین، زمان ارسال بسته به سمت مقصد است. در روش سنتی مشتریان برای دریافت بسته‌ها باید در ساعات مشخصی در مکان تعیین‌شده حضور داشته باشند و در غیر این صورت مرسوله مرجوع می‌شود. با وجود گنجه‌ها دیگر مشکلی در زمانبندی تحویل وجود نخواهد داشت و پس از قرار گرفتن بسته‌ها در آن‌ها، کاربر می‌تواند در هر ساعت از شبانه‌روز بسته‌ی خود را دریافت کند.</p>
+        </div>
+    </div> -->
+    <div class="content-cd">
+      <div class="left-side-2">
+          <img class="image" src="assest/vector-removebg-preview.png" alt="">
+      </div>
+      <div class="right-side-2">
+          <h3 class="header-body">ساعات منعطف</h3>
+          <p class="text-body">یکی از اصلی‌ترین دغدغه‌ها در هنگام خرید آنلاین، زمان ارسال بسته به سمت مقصد است. در روش سنتی مشتریان برای دریافت بسته‌ها باید در ساعات مشخصی در مکان تعیین‌شده حضور داشته باشند و در غیر این صورت مرسوله مرجوع می‌شود. با وجود گنجه‌ها دیگر مشکلی در زمانبندی تحویل وجود نخواهد داشت و پس از قرار گرفتن بسته‌ها در آن‌ها، کاربر می‌تواند در هر ساعت از شبانه‌روز بسته‌ی خود را دریافت کند.</p>
+      </div>
+    </div>
+    <div class="content-cd" dir="ltr">
+      <div class="left-side-2">
+          <img class="image" src="assest/vector-removebg-preview.png" alt="">
+      </div>
+      <div class="right-side-2">
+          <h3 class="header-body">ساعات منعطف</h3>
+          <p class="text-body">یکی از اصلی‌ترین دغدغه‌ها در هنگام خرید آنلاین، زمان ارسال بسته به سمت مقصد است. در روش سنتی مشتریان برای دریافت بسته‌ها باید در ساعات مشخصی در مکان تعیین‌شده حضور داشته باشند و در غیر این صورت مرسوله مرجوع می‌شود. با وجود گنجه‌ها دیگر مشکلی در زمانبندی تحویل وجود نخواهد داشت و پس از قرار گرفتن بسته‌ها در آن‌ها، کاربر می‌تواند در هر ساعت از شبانه‌روز بسته‌ی خود را دریافت کند.</p>
+      </div>
+    </div>
+    <div class="content-cd">
+      <div class="left-side-2">
+          <img class="image" src="assest/vector-removebg-preview.png" alt="">
+      </div>
+      <div class="right-side-2">
+          <h3 class="header-body">ساعات منعطف</h3>
+          <p class="text-body">یکی از اصلی‌ترین دغدغه‌ها در هنگام خرید آنلاین، زمان ارسال بسته به سمت مقصد است. در روش سنتی مشتریان برای دریافت بسته‌ها باید در ساعات مشخصی در مکان تعیین‌شده حضور داشته باشند و در غیر این صورت مرسوله مرجوع می‌شود. با وجود گنجه‌ها دیگر مشکلی در زمانبندی تحویل وجود نخواهد داشت و پس از قرار گرفتن بسته‌ها در آن‌ها، کاربر می‌تواند در هر ساعت از شبانه‌روز بسته‌ی خود را دریافت کند.</p>
+      </div>
+    </div>
+    </div>
+    <div class="content-download">
+    <div class="text">
+      <h3>لینک دریافت نرم افزار اولیا</h3>
+    </div>
+    <div class="link-download">
+      <a href="#">
+        <img class="cafe-bazaar" src="assest/cafebazar.png" alt="link download">
+      </a>
+      <a href="#">
+        <img class="google-play" src="assest/googleplay.png" alt="link download">
+      </a>
+      <a href="#">
+        <img class="myket" src="assest/myket.png" alt="link myket">
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-download"></i>
+      </a>
+    </div>
+    <div class="text2">
+      <h3>لینک دریافت نرم افزار راننده</h3>
+    </div>
+    <div class="link-download">
+      <a href="#">
+        <img class="cafe-bazaar" src="assest/cafebazar.png" alt="link download">
+      </a>
+      <a href="#">
+        <img class="google-play" src="assest/googleplay.png" alt="link download">
+      </a>
+      <a href="#">
+        <img class="myket" src="assest/myket.png" alt="link myket">
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-download"></i>
+      </a>
+    </div>
+  </div>
+    <section class="footer">
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #0000">
+      <!-- Grid container -->
+      <div class="container" id="#footer">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">درباره ما</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">توسعه دهنده</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">مقالات</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">کمک</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">پشتیبانی</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-5" />
+  
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                سرویس رو پلتفرم پیشرو و بروز در سرویس مدارس با امنیت کامل فرزندتان را به ما بسپارید
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+  
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="" class="text-white me-4">
+            <!-- <i class="fab fa-facebook-f"></i> -->
+          </a>
+          <a href="" class="text-white me-4">
+            <!-- <i class="fab fa-twitter"></i> -->
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/mohammadasadiyan" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
